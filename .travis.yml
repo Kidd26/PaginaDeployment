@@ -10,6 +10,10 @@ before_script:
 
 script:
 	- echo "Hola mundo"
+  - pwd
+  - ls -la
+  - date
+  
 
 notifications:
 email: false
